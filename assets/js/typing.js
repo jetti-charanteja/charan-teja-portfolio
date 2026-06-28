@@ -10,6 +10,12 @@ const roles = [
 
 "Problem Solver"
 
+"Data Analyst"
+
+"Fraud Analyst"
+
+"Risk analyst"
+
 ];
 
 let roleIndex = 0;
