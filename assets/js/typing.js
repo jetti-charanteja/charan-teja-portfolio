@@ -1,68 +1,62 @@
-const roles = [
+    const roles = [
 
-    "Software Engineer",
+        "Software Engineer",
 
-    "Python Developer",
+        "Python Developer",
 
-    "AI Data Specialist",
+        "AI Data Specialist",
 
-    "UI/UX Enthusiast",
+        "UI/UX Enthusiast",
 
-    "Problem Solver",
+        "Problem Solver",
 
-    "Data Analyst",
+        "Data Analyst",
 
-    "Fraud Analyst",
+        "Fraud Analyst",
 
-    "Risk Analyst"
+        "Risk Analyst"
 
-"Data Analyst"
+    ];
 
-"Fraud Analyst"
+    let roleIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
 
-"Risk analyst"
+    const typing = document.getElementById("typing");
 
-];
+    function typeEffect() {
 
-let roleIndex = 0;
-let charIndex = 0;
-let deleting = false;
+        const current = roles[roleIndex];
 
-const typing = document.getElementById("typing");
+        if (!deleting) {
 
-function typeEffect() {
+            typing.textContent = current.substring(0, charIndex++);
 
-    const current = roles[roleIndex];
+            if (charIndex > current.length) {
 
-    if (!deleting) {
+                deleting = true;
 
-        typing.textContent = current.substring(0, charIndex++);
+                setTimeout(typeEffect, 1500);
 
-        if (charIndex > current.length) {
+                return;
+            }
 
-            deleting = true;
+        } else {
 
-            setTimeout(typeEffect, 1500);
+            typing.textContent = current.substring(0, charIndex--);
 
-            return;
-        }
+            if (charIndex < 0) {
 
-    } else {
+                deleting = false;
 
-        typing.textContent = current.substring(0, charIndex--);
+                roleIndex = (roleIndex + 1) % roles.length;
 
-        if (charIndex < 0) {
-
-            deleting = false;
-
-            roleIndex = (roleIndex + 1) % roles.length;
+            }
 
         }
+
+        setTimeout(typeEffect, deleting ? 40 : 100);
 
     }
 
-    setTimeout(typeEffect, deleting ? 40 : 100);
-
-}
-
-typeEffect();
+    typeEffect();
