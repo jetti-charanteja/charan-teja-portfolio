@@ -1,0 +1,61 @@
+:root{
+
+    /* Colors */
+
+    --primary:#2563eb;
+
+    --secondary:#06b6d4;
+
+    --accent:#7c3aed;
+
+    --background:#08111f;
+
+    --surface:#101827;
+
+    --card:#162132;
+
+    --text:#f8fafc;
+
+    --text-light:#94a3b8;
+
+    --border:rgba(255,255,255,.08);
+
+    /* Fonts */
+
+    --heading:'Poppins',sans-serif;
+
+    --body:'Inter',sans-serif;
+
+    --mono:'JetBrains Mono',monospace;
+
+    /* Radius */
+
+    --radius:18px;
+
+    /* Shadow */
+
+    --shadow:0 20px 60px rgba(0,0,0,.25);
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+}
+
+/* Light Theme */
+
+.light{
+
+    --background:#ffffff;
+
+    --surface:#f8fafc;
+
+    --card:#ffffff;
+
+    --text:#111827;
+
+    --text-light:#64748b;
+
+    --border:#dbeafe;
+
+}
