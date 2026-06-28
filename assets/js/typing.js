@@ -1,14 +1,20 @@
 const roles = [
 
-"Software Engineer",
+    "Software Engineer",
 
-"Python Developer",
+    "Python Developer",
 
-"AI Data Specialist",
+    "AI Data Specialist",
 
-"UI/UX Enthusiast",
+    "UI/UX Enthusiast",
 
-"Problem Solver"
+    "Problem Solver",
+
+    "Data Analyst",
+
+    "Fraud Analyst",
+
+    "Risk Analyst"
 
 "Data Analyst"
 
@@ -19,46 +25,43 @@ const roles = [
 ];
 
 let roleIndex = 0;
-
 let charIndex = 0;
-
 let deleting = false;
 
 const typing = document.getElementById("typing");
 
-function typeEffect(){
+function typeEffect() {
 
     const current = roles[roleIndex];
 
-    if(!deleting){
+    if (!deleting) {
 
-        typing.textContent = current.substring(0,charIndex++);
+        typing.textContent = current.substring(0, charIndex++);
 
-        if(charIndex > current.length){
+        if (charIndex > current.length) {
 
             deleting = true;
 
-            setTimeout(typeEffect,1500);
+            setTimeout(typeEffect, 1500);
 
             return;
-
         }
 
-    }else{
+    } else {
 
-        typing.textContent = current.substring(0,charIndex--);
+        typing.textContent = current.substring(0, charIndex--);
 
-        if(charIndex < 0){
+        if (charIndex < 0) {
 
             deleting = false;
 
-            roleIndex = (roleIndex+1)%roles.length;
+            roleIndex = (roleIndex + 1) % roles.length;
 
         }
 
     }
 
-    setTimeout(typeEffect,deleting?40:100);
+    setTimeout(typeEffect, deleting ? 40 : 100);
 
 }
 
