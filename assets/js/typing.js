@@ -16,12 +16,6 @@
 
         "Risk Analyst"
 
-"Data Analyst"
-
-"Fraud Analyst"
-
-"Risk analyst"
-
 ];
 
     let roleIndex = 0;
