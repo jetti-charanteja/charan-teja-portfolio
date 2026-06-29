@@ -10,7 +10,7 @@ const lines = [
 
 "charan@portfolio:~$ education",
 
-"B.Tech Computer Science - Data Science & Big Data Analytics Specialisation",
+"B.Tech Computer Science - Data Science & Big Data Analytics Specialization",
 
 "KL University H",
 
@@ -30,9 +30,9 @@ const lines = [
 
 "charan@portfolio:~$ internships",
 
-"• Kotlin Developer Intern at SP SOftwater SOlutions",
+"• Kotlin Developer Intern at SP SOftware SOlutions",
 
-"• UI/UX Developer Intern at Are",
+"• UI/UX Developer Intern at Areksoft Technologies ",
 
 "",
 
@@ -53,6 +53,11 @@ const lines = [
 "SQL",
 
 "UI/UX Designing",
+
+
+"Data Analytics",
+
+
 
 
 "",
@@ -76,6 +81,8 @@ const lines = [
 "UI/UX",
 
 "Problem Solving",
+"Data Analyst",
+
 
 "",
 
