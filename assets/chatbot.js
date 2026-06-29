@@ -87,6 +87,9 @@ reply=knowledge.about;
 else if(question.includes("skill"))
 
 reply=knowledge.skills;
+else if(question.includes("certfifcations"))
+
+reply=knowledge.certifications;
 
 else if(question.includes("project"))
 
