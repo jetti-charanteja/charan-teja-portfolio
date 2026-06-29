@@ -2,21 +2,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const knowledge={
 
-about:"I'm Jetti Charan Teja, a Software Engineer passionate about AI, Python, Java and Full Stack Development.",
+about:"I'm Jetti Charan Teja Naga Sai, currently working as a Fraud Analyst at Wipro - Google (Client) passionate about AI, Python, Java, Data Analysis, and Web Development.",
 
-skills:"Python, Java, JavaScript, HTML, CSS, SQL, MySQL, Git, AI, Automation Anywhere, Oracle Cloud.",
+skills:"Python, Java, JavaScript, HTML, CSS, MySQL, AI, UI/UX Designing, Data Analytics.",
 
-projects:"Portfolio Website, Student Management System, AI Dataset Labeling Tool and more.",
+certifications: "Oracle OCI", "Automation Anywhere - Advanced RPA", "JPMC & Forage - Software Engineering Virtual Experience", 
+
+projects:"Portfolio Website, Multimodal Review Dataset Labeller, Audio Labelling & Transcription Tool, Text Annotation & Classification Tool, and many more.",
 
 experience:"Currently working at Wipro on Google Trust & Safety as a Fraud Analyst.",
 
-education:"B.Tech in Computer Science Engineering with 8.36 CGPA.",
+education:"B.Tech in Computer Science Engineering with Specialization in Data Science and Big Data Analytics with overall 8.36 CGPA.",
 
 resume:"You can download my resume using the Resume button at the top.",
 
-contact:"📧 Email : jcharanteja11@gmail.com",
+contact:"📧 Email : jcharanteja11@gmail.com", "+91-7386680755",
 
-github:"GitHub: https://github.com/YOUR_USERNAME",
+github:"GitHub: https://github.com/jetti-charanteja",
 
 linkedin:"LinkedIn: https://linkedin.com/in/jetti-charanteja"
 
