@@ -4,15 +4,15 @@ const lines = [
 
 "charan@portfolio:~$ whoami",
 
-"Jetti Charan Teja",
+"Jetti Charan Teja Naga Sai",
 
 "",
 
 "charan@portfolio:~$ education",
 
-"B.Tech Computer Science",
+"B.Tech Computer Science - Data Science & Big Data Analytics Specialisation",
 
-"KL University",
+"KL University H",
 
 "CGPA : 8.36",
 
@@ -24,15 +24,15 @@ const lines = [
 
 "Fraud Analyst",
 
-"October 2025 - Present",
+"September 2025 - Present",
 
 "",
 
 "charan@portfolio:~$ internships",
 
-"• Kotlin Developer Intern",
+"• Kotlin Developer Intern at SP SOftwater SOlutions",
 
-"• UI/UX Developer Intern",
+"• UI/UX Developer Intern at Are",
 
 "",
 
@@ -51,6 +51,9 @@ const lines = [
 "CSS",
 
 "SQL",
+
+"UI/UX Designing",
+
 
 "",
 
