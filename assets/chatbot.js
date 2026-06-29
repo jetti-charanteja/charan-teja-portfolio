@@ -6,7 +6,7 @@ about:"I'm Jetti Charan Teja Naga Sai, currently working as a Fraud Analyst at W
 
 skills:"Python, Java, JavaScript, HTML, CSS, MySQL, AI, UI/UX Designing, Data Analytics.",
 
-certifications: "Oracle OCI", "Automation Anywhere - Advanced RPA", "JPMC & Forage - Software Engineering Virtual Experience", 
+certifications: "Oracle OCI, Automation Anywhere - Advanced RPA,  JPMC & Forage - Software Engineering Virtual Experience", 
 
 projects:"Portfolio Website, Multimodal Review Dataset Labeller, Audio Labelling & Transcription Tool, Text Annotation & Classification Tool, and many more.",
 
@@ -16,7 +16,7 @@ education:"B.Tech in Computer Science Engineering with Specialization in Data Sc
 
 resume:"You can download my resume using the Resume button at the top.",
 
-contact:"📧 Email : jcharanteja11@gmail.com", "+91-7386680755",
+contact:"📧 Email : jcharanteja11@gmail.com, +91-7386680755",
 
 github:"GitHub: https://github.com/jetti-charanteja",
 
